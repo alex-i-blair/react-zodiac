@@ -3,7 +3,7 @@ import './ZodiacCard.css'
 
 export default function ZodiacCard(props) {
   return (
-    <fragment className='zodiac-card'>
+    <section className='zodiac-card'>
       <img src={`./images/${props.name}.png`} />
       <p className='name'>
         {/* {console.log(props.name)} */}
@@ -12,7 +12,7 @@ export default function ZodiacCard(props) {
       <p>
         {props.dates}
       </p>
-    </fragment>
+    </section>
   )
 }
 {
