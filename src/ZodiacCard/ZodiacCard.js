@@ -4,11 +4,14 @@ import './ZodiacCard.css'
 export default function ZodiacCard(props) {
   return (
     <fragment className='zodiac-card'>
-      <p>
-        {/* {console.log(props.name)} */}
-        {props.name.charAt(0).toUpperCase() + props.name.slice(1) + ' ' + props.dates}
-      </p>
       <img src={`./images/${props.name}.png`} />
+      <p className='name'>
+        {/* {console.log(props.name)} */}
+        {props.name}
+      </p>
+      <p>
+        {props.dates}
+      </p>
     </fragment>
   )
 }
