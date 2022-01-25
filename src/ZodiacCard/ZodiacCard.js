@@ -1,4 +1,3 @@
-import { Fragment } from 'react/cjs/react.production.min'
 import './ZodiacCard.css'
 
 export default function ZodiacCard(props) {
